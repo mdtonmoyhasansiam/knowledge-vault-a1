@@ -282,3 +282,62 @@ nav .btn:hover{
   color: #001931;
   padding-bottom: 16px;
 }
+
+.section-3{
+    text-align: center;
+    background-color: #F7F6F2;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 85%;
+    height: 384px;
+    border: none;
+    border-radius: 12px;
+}
+
+.section-3box{
+    text-align: center;
+    padding: 80px 40px;
+}
+
+.section-3para h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    padding-bottom: 16px;
+}
+
+.section-3para p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    padding-bottom: 24px;
+}
+
+.section-3para button{
+    background-color: #469165;
+    border: none;
+    border-radius: 4px;
+    padding: 16.5px 16px;
+    margin-bottom: 16px;
+}
+
+.section-3para button:hover{
+    background-color: darkslategrey;
+}
+
+.section-3para button a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}
+
+.section-3para h5{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
