@@ -227,3 +227,58 @@ nav .btn:hover{
     line-height: 20px;
     color: #627382;
 }
+
+.section-2 {
+  padding: 80px 20px;
+  background: #ffffff;
+}
+
+.section-2main {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.section-2img img {
+  max-width: 100%;
+  border-radius: 16px;
+}
+
+.section-2para {
+  max-width: 520px;
+}
+
+.section-2para h5{
+    font-size: 16px;
+    line-height: 20px;
+    color: #469165;
+    padding-bottom: 16px;
+}
+
+.section-2para h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+  padding-bottom: 16px;
+  
+}
+
+.section-2para p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  padding-bottom: 40px;
+}
+
+.section-2para ul{
+  list-style: none;
+}
+
+.section-2para li {
+  font-size: 16px;
+  line-height: 20px;
+  color: #001931;
+  padding-bottom: 16px;
+}
