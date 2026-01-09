@@ -16,6 +16,7 @@ header{
 
 nav{
     width: 85%;
+    height: 60px;
     margin: auto;
     margin-top: 16px;
     display: flex;
@@ -28,7 +29,7 @@ nav .logo{
     padding-top: 16px;
     width: 139px;
     height: 60px;
-    margin-bottom: 16px;
+    cursor: pointer;
 }
 
 nav .menu{
@@ -38,9 +39,6 @@ nav .menu{
     align-items: center;
     margin: auto;
     margin-top: 34px;
-    /* margin-left: 346px; */
-    padding: auto;
-    /* white-space: nowrap; */
     
 }
 
@@ -58,6 +56,7 @@ nav .btn{
     border-radius: 6px;
     font-weight: 600;
     margin-top: 24px;
+    cursor: pointer;
 }
 
 nav .btn:hover{
@@ -69,15 +68,13 @@ nav .btn:hover{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    /* margin-top: 16px; */
-    text-align: center;
     height: 100vh;
-    /* vertical-align: middle; */
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-top: 0;
+    padding-top: 16px;
 }
 
 .main-container{
@@ -88,7 +85,6 @@ nav .btn:hover{
     background-color: #FFFFFF;
     max-width: 229px;
     margin: auto;
-    /* height: auto; */
     align-items: center;
     font-size: 16px;
     font-weight: 500;
@@ -243,7 +239,7 @@ nav .btn:hover{
 
 .section-2img img {
   max-width: 100%;
-  border-radius: 16px;
+  border-radius: 12px;
 }
 
 .section-2para {
@@ -322,6 +318,8 @@ nav .btn:hover{
     border-radius: 4px;
     padding: 16.5px 16px;
     margin-bottom: 16px;
+    cursor: pointer;
+    box-shadow: 0 10px 20px 0 #0000002a;
 }
 
 .section-3para button:hover{
